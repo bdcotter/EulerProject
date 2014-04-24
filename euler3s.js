@@ -27,9 +27,11 @@
 
 var sum = 0;
 var i=0;
-while (i<=1000){
+var j=0;
+var h=0;
+while (j<=1000){
 	j=3*i;
-	h=5*i;
+	// h=5*i;
 	i++;
 	sum += (h+j);
 	console.log(h,j,sum);
